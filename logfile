@@ -1,0 +1,28 @@
+LOG:  database system was shut down at 2017-05-20 22:33:47 IST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "news" does not exist
+FATAL:  database "news" does not exist
+FATAL:  database "news" does not exist
+FATAL:  database "news" does not exist
+FATAL:  database "news" does not exist
+FATAL:  database "jpjaspreetmahal" does not exist
+FATAL:  database "jpjaspreetmahal" does not exist
+FATAL:  database "jpjaspreetmahal" does not exist
+ERROR:  role "vagrant" does not exist
+STATEMENT:  ALTER TABLE articles OWNER TO vagrant;
+ERROR:  role "vagrant" does not exist
+STATEMENT:  ALTER TABLE articles_id_seq OWNER TO vagrant;
+ERROR:  role "vagrant" does not exist
+STATEMENT:  ALTER TABLE authors OWNER TO vagrant;
+ERROR:  role "vagrant" does not exist
+STATEMENT:  ALTER TABLE authors_id_seq OWNER TO vagrant;
+ERROR:  role "vagrant" does not exist
+STATEMENT:  ALTER TABLE log OWNER TO vagrant;
+ERROR:  role "vagrant" does not exist
+STATEMENT:  ALTER TABLE log_id_seq OWNER TO vagrant;
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
